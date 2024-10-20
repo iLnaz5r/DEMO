@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    width: 1600px;
+    height: 100px;
+    gap: 40px;
+    color: white;
+    font-size: 25px;
+}
+
+
+.first-button{
+    margin-left: 900px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.sec-button{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.searching{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    background-color: #c6c9ef;
+}
+
+h1{
+    margin-top: 30px;
+    padding: 40px;
+    font-size: 70px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    display: flex;
+    margin-left: 400px;
+}
+
+input{
+    border: 1px solid black ;
+    height: 70px;
+    width: 740px;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 700px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+
+    padding: 100px;
+    justify-content: space-around;
+}
+.right_two{
+    display: flex;
+    margin-top: 100px;
+}
+
+.right_three{
+    display: flex;
+    margin-top: 100px;
+}
+
+.photka{
+   display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.texts{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    color: white;
+    font-size: 20px;
+    flex-direction: row;
+}
+
+.footer_text{
+    display: flex;
+    justify-content: space-around;
+    gap: 300px;
+}
+
+.parag{
+    font-weight: 100;
+}
